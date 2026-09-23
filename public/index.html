@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+<title>بازی کیان پوری</title>
+<meta name="description" content="بازی کیان پوری - یک بازی آنلاین پرش از موانع" />
+<link rel="icon" href="/assets/images/icon.ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+  <div id="game-wrap">
+    <div id="canvas-stage">
+      <canvas id="game" width="1100" height="500"></canvas>
+
+      <!-- loading / audio-unlock overlay -->
+      <div id="start-overlay">
+        <div id="start-card">
+          <div id="start-title">بازی کیان پوری</div>
+          <div id="start-sub">برای شروع لمس کن یا کلیک کن</div>
+          <div id="start-spinner"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile touch controls -->
+    <div id="touch-controls">
+      <button id="btn-duck" class="touch-btn" aria-label="خم شدن">خم شو</button>
+      <button id="btn-jump" class="touch-btn touch-btn-primary" aria-label="پرش">پرش</button>
+    </div>
+  </div>
+
+  <script src="/game.js"></script>
+</body>
+</html>
