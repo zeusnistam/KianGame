@@ -1,0 +1,13 @@
+{
+  "name": "kianpori-game-web",
+  "version": "1.0.0",
+  "description": "Web version of Kianpori Game (بازی کیان پوری) - ready to deploy on Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {}
+}
