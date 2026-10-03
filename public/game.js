@@ -50,7 +50,7 @@
   // Bump this number whenever you replace an image. Browsers that cached an
   // old picture (the first server version cached images for 7 days) are then
   // forced to download the new one instead of showing the stale copy.
-  const IMG_VER = "?v=20261004";
+  const IMG_VER = "?v=20261005";
   const SND_BASE = "/assets/audio/";
 
   let booted = false;
